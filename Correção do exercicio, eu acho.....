@@ -1,0 +1,44 @@
+#include<iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+using namespace std;
+
+int main(); 
+int nums[3][4]= {{13,14,15},{21,22,23}};
+int i, j, soma = 0, mat [3] [4]
+int **re;
+re = (int **) malloc(sizeof(int*)*3);
+
+//
+for(i = 0; i < 3; i++){
+re [i] = malloc(4* sizeof(int));
+for(j = 0; j < 7; j++){
+    mat [i] [j] = rand() %100;
+}
+
+}
+//
+cout <<endl<< "vetor:"<<endl;
+
+for(i = 0; i < 3; i++); {
+for(j = 0; j < 3; j++);
+cout<<nums [i][j]<<"-";
+mat [i] [j] = rand() % 100;
+
+}
+
+//
+for(i = 0; i < 4; i++){
+for(j=0; j<3; j++)
+printf("&d", mat[i] [j]);
+
+//
+
+
+
+
+}
+return 0;
