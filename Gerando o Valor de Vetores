@@ -1,0 +1,32 @@
+#include <studio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(){
+ int i, vet1[10], vet2[10];
+
+}
+
+//gerando os valores dos vetores 1 e 2
+for(i = 0; i<25; i++){
+vet1[i] = rand() % 100;
+vet2[i] = rand() % 100;
+
+}
+
+// Soma dos valores na posição i
+for (i = o; i< 25; i++){
+    vet1[1] + vet[2];
+}
+
+// imprimindo o primeiro vetor
+printf("\nVetor 1: ");
+for(i = 0; i < 10; i++){
+    printf("%3d", vet1[i]);
+}
+
+// imprimindo o segundo vetor
+printf("\nVetor 2: ");
+for(i = 0; i < 10; i++){
+    printf("%3d", vet2[i]);
+}
